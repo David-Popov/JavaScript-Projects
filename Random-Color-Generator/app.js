@@ -18,6 +18,7 @@ copyBtn.addEventListener('click', e =>{
       }, function(err) {
         console.error('Async: Could not copy text: ', err);
       });
+      alert('Succesfuly copied that color!');
 })
 
 
